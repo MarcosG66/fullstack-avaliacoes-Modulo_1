@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-
+    position: relative;
 
 }
 
@@ -12,6 +12,7 @@ body {
 
 .hero {
     text-align: center;
+    align-content: justify;
     background: url(Illustration.png);
     height: 580px;
     width: 1366px;
@@ -39,10 +40,11 @@ body {
     text-transform: none;
     color: white;
     text-align: center;
-    margin: 90px 220px;
+    margin: 90px 220px ;
     margin-bottom: 35px;
     word-break: break-word;
     display: block ;
+    margin-top: 70px;
 }
 
 
@@ -50,13 +52,16 @@ body {
 
     border-radius: 30px;
     background-color: white;
-    width: 390px;
-    height: 28px;
+    width: 388px;
+    height: 26px;
     padding: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-left: 470px;
+    text-align: center;
+    border: solid white 2px;
+    margin-bottom: 15px;
 }
 
 .search-txt {
@@ -64,10 +69,11 @@ body {
     font-weight: 600;
     font-size: 16px;
     border: none;
-    width: 350px;
     outline: none;
+    width: 300px;
     padding: 0;
     line-height: 20px;
+    text-align: left;
 }
 
 .search-btn {
@@ -80,4 +86,56 @@ body {
 
 .search-btn img {
     transform: translate(0px, -6.5px);
+}
+
+.icon {
+    height: 40px;
+    width: 40px;
+    font-weight: bold;
+    transform: translate(3px, -8px);
+    margin-right:10px ;
+
+}
+
+img {
+    -webkit-touch-callout: none;  /* iPhone OS, Safari */
+    user-select: none;    /* Chrome, Safari 3 */
+}
+
+.saved-address {
+    color: white;
+    font-family: "Segoe UI", Helvetica;
+    font-weight: bold;
+    margin-top: 90px;
+}
+
+li {
+    display: inline;
+    margin: 0 8px;
+}
+ul {
+    list-style-type: none;
+    text-align: right;
+    margin-right: 30px;
+    transform: translate(0, -17px);
+
+}
+
+.SI {
+    color: white;
+    font-size: 18px;
+    font-family: Helvetica;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.SU {
+    color:#191919;
+    background: white;
+    font-size: 16px;
+    font-family: Helvetica;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 12px 12px;
+    border-radius: 25px;
 }
