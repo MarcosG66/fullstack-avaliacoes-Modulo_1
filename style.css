@@ -1,22 +1,25 @@
-*{
-    margin: 0;
-    padding: 0;
-    position: relative;
-
-}
 
 body {
-    height: 7374px;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    height: 3000px;
 }
 
 
 .hero {
     text-align: center;
     align-content: justify;
-    background: url(Illustration.png);
-    height: 580px;
-    width: 1366px;
+    background: url(https://img.cdn4dd.com/cdn-cgi/image/fit=cover,width=1200,format=auto,quality=60/https://cdn.doordash.com/media/consumer/home/landing/new/hero_landing_us_alt.jpg);
+    width: auto;
+    height: auto;
     margin: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;    width: 100vw;
+    background-color: rgb(247, 247, 247);
+    min-height: 420px;
+    padding-bottom: 192px;
 }
 
 
@@ -31,20 +34,18 @@ body {
     margin-top: 15px;
 }
 
+.textbox{
+    align-content: center;
+}
 .hero h1{
     font-family: "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    font-size: 64px;
-    font-weight: 700;
-    line-height: 76px;
-    letter-spacing: -0.04ch;
-    text-transform: none;
     color: white;
-    text-align: center;
-    margin: 90px 220px ;
-    margin-bottom: 35px;
     word-break: break-word;
-    display: block ;
-    margin-top: 70px;
+    font-size: 64px;
+    line-height: 76px;
+    max-width: 900px;
+    display: inline-flex;
+    margin-top: 40px;
 }
 
 
@@ -54,14 +55,11 @@ body {
     background-color: white;
     width: 388px;
     height: 26px;
-    padding: 10px;
-    display: flex;
+    display: inline-flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 470px;
-    text-align: center;
     border: solid white 2px;
-    margin-bottom: 15px;
+    
 }
 
 .search-txt {
@@ -71,7 +69,6 @@ body {
     border: none;
     outline: none;
     width: 300px;
-    padding: 0;
     line-height: 20px;
     text-align: left;
 }
@@ -109,17 +106,7 @@ img {
     margin-top: 90px;
 }
 
-li {
-    display: inline;
-    margin: 0 8px;
-}
-ul {
-    list-style-type: none;
-    text-align: right;
-    margin-right: 30px;
-    transform: translate(0, -17px);
 
-}
 
 .SI {
     color: white;
@@ -138,4 +125,12 @@ ul {
     text-decoration: none;
     padding: 12px 12px;
     border-radius: 25px;
+
+}
+
+.nav {
+    display: inline;
+    justify-content: flex-end;
+    margin: 0;
+
 }
