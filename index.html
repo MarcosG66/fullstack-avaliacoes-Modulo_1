@@ -10,13 +10,15 @@
 </head>
 <body>
     <div class="hero">
-            <img src="320px-DoorDash_Logo.png">
-            <div class="nav">
-                <a href="#" class="SI">Sign In</a>
-                <a href="#" class="SU">Sign Up</a>
-            </div>
+      <img src="320px-DoorDash_Logo.png">
+      <div class="nav">
+          <ul>
+              <li><a href="#" class="SI">Sign In</a></li>
+              <li><a href="#" class="SU">Sign Up</a></li>
+            </ul>
+      </div>
             <div class="textbox"><h1>Restaurants and more, delivered to your door</h1></div>
-        <div class="container">            
+        <div class="search-container">            
             <div class="search-box">
             <img src="Gps-icon2.svg" class="icon" nselectable="on">
             <input type="text" class="search-txt" placeholder="Enter delivery address">
@@ -27,48 +29,54 @@
    </div>    
             <a href="#" class="saved-address">Sign in for saved address</a>
     </div>
-    <div class="container2">
-        <div class="box2">
-            <div id="container">
-                <div class="box">
-                  <div class="cards">
-                    <article class="card">
-                      <a href="#">
-                        <figure class="card-thumb">
-                            <img src="https://cdn.doordash.com/media/consumer/home/landing/new/ScootScoot.svg" alt="Become a Dasher">
-                        </figure>
-                        <div class="card-content">
-                          <h2 class="card-title">Become a Dasher</h2>
-                          <h3 class="card-excerpt">As a delivery driver, you'll make reliable money—working anytime, anywhere.</h3>
-                        </div>
-                      </a>
-                    </article>
-                    <article class="card">
-                      <a href="#">
-                        <figure class="card-thumb">
-                            <img src="https://cdn.doordash.com/media/consumer/home/landing/new/Storefront.svg" alt="Become a Partner">
-                        </figure>
-                        <div class="card-content">
-                          <h2 class="card-title">Become a Partner</h2>
-                          <h3 class="card-excerpt">Grow your business and reach new customers by partnering with us.</h3>
-                        </div>
-                      </a>
-                    </article>
-                    <article class="card">
-                      <a href="#">
-                        <figure class="card-thumb">
-                            <img src="https://cdn.doordash.com/media/consumer/home/landing/new/iphone.svg" alt="Try the App">
-                        </figure>
-                        <div class="card-content">
-                          <h2 class="card-title">Try the App</h2>
-                          <h3 class="card-excerpt">Experience the best your neighborhood has to offer, all in one app.</h3>
-                        </div>
-                      </a>
-                    </article>
-                  </div>
-                </div>
+    <div class="grid-container">
+      <div class="cards">
+          <div class="card">
+              <div class="thumb">
+                  <img src="https://cdn.doordash.com/media/consumer/home/landing/new/ScootScoot.svg" alt="Become a Dasher">
               </div>
-        </div>
-    </div>
+              <div class="text">
+                  <div class="title">
+                      <h2 class="card-title">Become a Dasher</h2>
+                      <h3 class="card-excerpt">As a delivery driver, you'll make reliable money—working anytime, anywhere.</h3>
+                  </div>
+                  <button class="btn">
+                    <span>Start earning</span>
+                    <svg viewBox="0 0 512 512" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 512 512"><path d="m322.7 128.4 100.3 105c6 5.8 9 13.7 9 22.4s-3 16.5-9 22.4L322.7 383.6c-11.9 12.5-31.3 12.5-43.2 0-11.9-12.5-11.9-32.7 0-45.2l48.2-50.4h-217c-17 0-30.7-14.3-30.7-32s13.7-32 30.6-32h217l-48.2-50.4c-11.9-12.5-11.9-32.7 0-45.2 12-12.5 31.3-12.5 43.3 0z" fill="#EB1700" class="fill-000000"></path></svg>
+                  </button>
+              </div>
+          </div>
+          <div class="card">
+              <div class="thumb">
+                  <img src="https://cdn.doordash.com/media/consumer/home/landing/new/Storefront.svg" alt="Become a Partner">
+              </div>
+              <div class="text">
+                  <div class="title">
+                      <h2 class="card-title">Become a Partner</h2>
+                      <h3 class="card-excerpt">Grow your business and reach new customers by partnering with us.</h3>
+                  </div>
+                  <button class="btn">
+                    <span>Start earning</span>
+                    <svg viewBox="0 0 512 512" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 512 512"><path d="m322.7 128.4 100.3 105c6 5.8 9 13.7 9 22.4s-3 16.5-9 22.4L322.7 383.6c-11.9 12.5-31.3 12.5-43.2 0-11.9-12.5-11.9-32.7 0-45.2l48.2-50.4h-217c-17 0-30.7-14.3-30.7-32s13.7-32 30.6-32h217l-48.2-50.4c-11.9-12.5-11.9-32.7 0-45.2 12-12.5 31.3-12.5 43.3 0z" fill="#EB1700" class="fill-000000"></path></svg>
+                  </button>
+              </div>
+          </div>
+          <div class="card">
+              <div class="thumb">
+                  <img src="https://cdn.doordash.com/media/consumer/home/landing/new/iphone.svg" alt="Try the App">
+              </div>
+              <div class="text">
+                  <div class="title">
+                      <h2 class="card-title">Try the App</h2>
+                      <h3 class="card-excerpt">Experience the best your neighborhood has to offer, all in one app.</h3>
+                  </div>
+                  <button class="btn">
+                    <span>Start earning</span>
+                    <svg viewBox="0 0 512 512" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 512 512"><path d="m322.7 128.4 100.3 105c6 5.8 9 13.7 9 22.4s-3 16.5-9 22.4L322.7 383.6c-11.9 12.5-31.3 12.5-43.2 0-11.9-12.5-11.9-32.7 0-45.2l48.2-50.4h-217c-17 0-30.7-14.3-30.7-32s13.7-32 30.6-32h217l-48.2-50.4c-11.9-12.5-11.9-32.7 0-45.2 12-12.5 31.3-12.5 43.3 0z" fill="#EB1700" class="fill-000000"></path></svg>
+                  </button>
+              </div>
+          </div>
+      </div>
+  </div>
 </body>
 </html>
