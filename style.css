@@ -18,15 +18,16 @@ body {
     margin: 0px;
     padding: 0px;
     display: block;
-    height: 3000px;
+    width: 1366px;
+    font-family: "Segoe UI", Helvetica;
 }
 
 
 .hero {
     text-align: center;
     align-content: justify;
-    background: url(https://img.cdn4dd.com/cdn-cgi/image/fit=cover,width=1200,format=auto,quality=60/https://cdn.doordash.com/media/consumer/home/landing/new/hero_landing_us_alt.jpg);
-    width: auto;
+    background: url(https://cdn.doordash.com/media/consumer/home/landing/new/hero_landing_us_alt.jpg);
+    width: 100%;
     height: auto;
     margin: 0;
     background-size: cover;
@@ -53,7 +54,6 @@ body {
     align-content: center;
 }
 .hero h1{
-    font-family: "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     color: white;
     word-break: break-word;
     font-size: 63px;
@@ -79,7 +79,6 @@ body {
 }
 
 .search-txt {
-    font-family: "Segoe UI", Helvetica;
     font-weight: 600;
     font-size: 16px;
     border: none;
@@ -117,8 +116,7 @@ img {
 
 .saved-address {
     color: white;
-    font-family: "Segoe UI", Helvetica;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 li {
@@ -136,16 +134,14 @@ ul {
 .SI {
   color: white;
   font-size: 18px;
-  font-family: Helvetica;
   font-weight: bold;
   text-decoration: none;
 }
 
 .SU {
-  color:var(--primary);
+  color:black;
   background: white;
   font-size: 18px;
-  font-family: Helvetica;
   font-weight: bold;
   text-decoration: none;
   padding: 10px 10px;
@@ -186,7 +182,6 @@ ul {
 }
 
 .title {
-font-family: "Segoe UI", Helvetica;
 word-wrap: break-word;
 
 }
@@ -223,7 +218,6 @@ word-wrap: break-word;
 }
 
 .btn span {
-  font-family: "Segoe UI", Helvetica;
   font-size: 18px;
   font-weight: 700;
   line-height: 24px;
@@ -237,9 +231,217 @@ word-wrap: break-word;
 
 .btn svg {
   display: inline-block;
-  height: 16px;
   width: 16px;
   vertical-align: text-top;
   transform: scale(0.66666);
   transform-origin: center center;
+}
+
+.container1 {
+  width: 100%;
+  justify-content: center;
+}
+
+.box1 {
+  margin-left: 91px;
+  margin-RIGHT: 91px;
+  display: flex;
+  width: 1167PX;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -20px;
+}
+
+.container2 {
+  width: 100%;
+  justify-content: center;
+}
+
+.box2 {
+  margin-left: 91px;
+  margin-RIGHT: 91px;
+  display: flex;
+  width: 1167PX;
+  justify-content: center;
+  align-items: center
+}
+
+.textarea {
+  width: 422px;
+  display: inline-block;
+}
+
+.textarea2 {
+  width: 422px;
+  height: 380px;
+  display: inline-block;
+}
+
+.bodytitle {
+  display: inline-block;
+  margin-bottom: 19px;
+  width: 258px;
+  word-wrap: break-word;
+}
+
+.bodytitle span {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -0.04ch;
+  color: rgb(25,25,25);
+  max-width: 300px;
+  word-wrap: break-word;
+
+
+}
+
+.bodytext {
+  margin-bottom:16px ;
+  width: 413px;
+}
+
+.bodytext span {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0ch;
+  color: rgb(25, 25, 25);
+}
+
+.primary-btn {
+  color: white;
+  background: var(--primary);
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 10px 10px;
+  border-radius: 24px;
+  border: 0;
+  line-height: 18px;
+  cursor:pointer
+}
+
+.primary-btn:hover {
+  background: #d91400;
+  transition: 0.15s;
+}
+
+.primary-btn:not(:hover) {
+  transition: 0.15s;
+}
+
+.primary-btn:active {
+  background: #b71000;
+}
+
+.imagem {
+  display: inline-block;
+  margin-left: 47px;
+}
+
+
+.imagem img{
+  width: 694px;
+  height: AUTO;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.imagem2 {
+  display: inline-block;
+  margin-right: 47px;
+}
+
+.imagem2 img{
+  width: 694px;
+  height: AUTO;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.container2 {
+  padding: 100px 0;
+  background: var(--secondary-bg);
+  width: 100%;
+}
+
+.footer-container {
+  background-color: #191919;
+  color: white;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.footer {
+  margin-left:91px ;
+  margin-right:91px ;
+  width: 1167PX;
+  display: flex;
+  justify-content: flex-start;
+  align-items: start;
+  flex-wrap: wrap;
+}
+
+.Tab1 {
+ display: inline-block;
+  
+}
+
+.footer table tr th{
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.footer table tr td{
+  font-weight: 400;
+  font-size: 14px;
+}
+
+th, td {
+  text-align: left;
+  padding: 5px 50px;
+}
+
+td {
+  color: #797979;
+}
+
+.icons {
+  margin-top: 10px ;
+  margin-left: 300px;
+}
+
+.app-store {
+  padding: 5px ;
+  background: #3a3a3a;
+  border-radius: 15px;
+}
+
+.play-store {
+  padding: 5px ;
+  background: #3a3a3a;
+  border-radius: 15px;
+  margin-top: 10px;
+}
+
+td a {
+  text-decoration: none;
+  color: inherit;
+}
+
+td a:hover{
+  text-decoration: underline;
+  color: white;
+}
+
+span a{
+  text-decoration: none;
+  color: var(--primary);
+}
+
+button a {
+  color: white;
+  text-decoration: none;
 }
