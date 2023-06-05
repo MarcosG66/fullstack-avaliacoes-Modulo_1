@@ -26,7 +26,7 @@ body {
 .hero {
     text-align: center;
     align-content: justify;
-    background: url(https://cdn.doordash.com/media/consumer/home/landing/new/hero_landing_us_alt.jpg);
+    background: url(data/hero_landing_us_alt.jpg);
     width: 100%;
     height: auto;
     margin: 0;
@@ -415,7 +415,7 @@ td {
 
 .icons {
   margin-top: 10px ;
-  margin-left: 300px;
+  margin-left: 200px;
 }
 
 .app-store {
