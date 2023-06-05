@@ -322,6 +322,11 @@ word-wrap: break-word;
   cursor:pointer
 }
 
+.primary-btn a {
+  color:inherit;
+  text-decoration: none;
+}
+
 .primary-btn:hover {
   background: #d91400;
   transition: 0.15s;
@@ -439,9 +444,4 @@ td a:hover{
 span a{
   text-decoration: none;
   color: var(--primary);
-}
-
-button a {
-  color: white;
-  text-decoration: none;
 }
