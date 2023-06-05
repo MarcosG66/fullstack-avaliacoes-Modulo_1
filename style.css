@@ -26,7 +26,7 @@ body {
 .hero {
     text-align: center;
     align-content: justify;
-    background: url(https://cdn.doordash.com/media/consumer/home/landing/new/hero_landing_us_alt.jpg);
+    background: url(data/hero_landing_us_alt.jpg);
     width: 100%;
     height: auto;
     margin: 0;
@@ -390,33 +390,52 @@ word-wrap: break-word;
 }
 
 .footer table tr th{
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
 }
 
 .footer table tr td{
-  font-weight: 400;
+  font-weight: 500;
   font-size: 14px;
 }
 
 th, td {
   text-align: left;
   padding: 5px 50px;
+  line-height: 20px;
 }
 
 td {
-  color: #797979;
+  color: rgb(196, 196, 196)
 }
+
+th {
+  margin-top: 50px;
+}
+
 
 .icons {
   margin-top: 10px ;
-  margin-left: 300px;
+  margin-left: 200px;
 }
 
 .app-store {
   padding: 5px ;
   background: #3a3a3a;
   border-radius: 15px;
+}
+
+.app-store {
+  padding: 5px ;
+  background: #3a3a3a;
+  border-radius: 15px;
+}
+
+.play-store {
+  padding: 5px ;
+  background: #3a3a3a;
+  border-radius: 15px;
+  margin-top: 10px;
 }
 
 .play-store {
@@ -441,7 +460,7 @@ span a{
   color: var(--primary);
 }
 
-button a {
+.primary-btn a {
   color: white;
   text-decoration: none;
 }
