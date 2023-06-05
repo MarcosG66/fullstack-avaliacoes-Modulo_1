@@ -395,23 +395,29 @@ word-wrap: break-word;
 }
 
 .footer table tr th{
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
 }
 
 .footer table tr td{
-  font-weight: 400;
+  font-weight: 500;
   font-size: 14px;
 }
 
 th, td {
   text-align: left;
   padding: 5px 50px;
+  line-height: 20px;
 }
 
 td {
-  color: #797979;
+  color: rgb(196, 196, 196)
 }
+
+th {
+  margin-top: 50px;
+}
+
 
 .icons {
   margin-top: 10px ;
@@ -422,6 +428,13 @@ td {
   padding: 5px ;
   background: #3a3a3a;
   border-radius: 15px;
+}
+
+.play-store {
+  padding: 5px ;
+  background: #3a3a3a;
+  border-radius: 15px;
+  margin-top: 10px;
 }
 
 .play-store {
@@ -444,4 +457,9 @@ td a:hover{
 span a{
   text-decoration: none;
   color: var(--primary);
+}
+
+.primary-btn a {
+  color: white;
+  text-decoration: none;
 }
