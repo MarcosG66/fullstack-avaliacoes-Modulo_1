@@ -18,8 +18,8 @@ body {
     margin: 0px;
     padding: 0px;
     display: block;
-    width: 1366px;
     font-family: "Segoe UI", Helvetica;
+    width: 100vw;
 }
 
 
@@ -151,6 +151,12 @@ ul {
   width: 100%;
   height: 347px;
   margin: 108px 0;
+  text-align: center;
+  align-content: justify;
+  background-position: center;    
+  background-color: (var(--main-bg));
+  min-height: 420px;
+  padding-bottom: 192px;
 }
 
 .cards {
@@ -240,13 +246,14 @@ word-wrap: break-word;
 .container1 {
   width: 100%;
   justify-content: center;
+  align-self: center;
 }
 
 .box1 {
   margin-left: 91px;
   margin-RIGHT: 91px;
   display: flex;
-  width: 1167PX;
+  width: 100%;
   justify-content: center;
   align-items: center;
   margin-bottom: -20px;
@@ -261,7 +268,7 @@ word-wrap: break-word;
   margin-left: 91px;
   margin-RIGHT: 91px;
   display: flex;
-  width: 1167PX;
+  width: 100%;
   justify-content: center;
   align-items: center
 }
@@ -372,12 +379,14 @@ word-wrap: break-word;
   width: 100%;
   padding-top: 20px;
   padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
 }
 
 .footer {
   margin-left:91px ;
   margin-right:91px ;
-  width: 1167PX;
+  width: 1167px;
   display: flex;
   justify-content: flex-start;
   align-items: start;
