@@ -253,7 +253,6 @@ word-wrap: break-word;
   margin-left: 91px;
   margin-RIGHT: 91px;
   display: flex;
-  width: 100%;
   justify-content: center;
   align-items: center;
   margin-bottom: -20px;
@@ -268,7 +267,6 @@ word-wrap: break-word;
   margin-left: 91px;
   margin-RIGHT: 91px;
   display: flex;
-  width: 100%;
   justify-content: center;
   align-items: center
 }
@@ -326,12 +324,14 @@ word-wrap: break-word;
   border-radius: 24px;
   border: 0;
   line-height: 18px;
-  cursor:pointer
+  cursor:pointer;
 }
 
 .primary-btn a {
   color:inherit;
   text-decoration: none;
+  font-family: sans-serif
+
 }
 
 .primary-btn:hover {
@@ -389,8 +389,6 @@ word-wrap: break-word;
 }
 
 .footer {
-  margin-left:91px ;
-  margin-right:91px ;
   width: 1167px;
   display: flex;
   justify-content: flex-start;
@@ -403,28 +401,18 @@ word-wrap: break-word;
   
 }
 
-.footer table tr th{
-  font-weight: 500;
-  font-size: 16px;
-}
-
-.footer table tr td{
-  font-weight: 500;
-  font-size: 14px;
-}
-
-th, td {
+td {
   text-align: left;
   padding: 5px 50px;
   line-height: 20px;
-}
-
-td {
   color: rgb(196, 196, 196)
 }
 
 th {
+  font-weight: 500;
+  line-height: 22px;
   margin-top: 50px;
+  align-self: left;
 }
 
 
