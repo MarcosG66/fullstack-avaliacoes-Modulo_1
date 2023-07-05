@@ -18,8 +18,9 @@ body {
     margin: 0px;
     padding: 0px;
     display: block;
-    font-family: "Segoe UI", Helvetica;
+    font-family: "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     width: 100vw;
+    
 }
 
 
@@ -145,7 +146,7 @@ ul {
   font-weight: bold;
   text-decoration: none;
   padding: 10px 10px;
-  border-radius: 25px;
+  border-radius: 24px;
 }
 .grid-container {
   width: 100%;
@@ -330,7 +331,6 @@ word-wrap: break-word;
 .primary-btn a {
   color:inherit;
   text-decoration: none;
-  font-family: sans-serif
 
 }
 
@@ -391,54 +391,102 @@ word-wrap: break-word;
 .footer {
   width: 1167px;
   display: flex;
-  justify-content: flex-start;
   align-items: start;
   flex-wrap: wrap;
 }
 
 .Tab1 {
- display: inline-block;
-  
+  margin-bottom: 50px;
+}
+
+.z table {width: 600px;}
+.x table {width: 567px;}
+.c table {width: 200px;}
+.v table {width: 200px;}
+
+.b table {width: 200px;}
+
+.n {
+  width: 567px;
+  justify-content: right;
+  display: flex;
+}
+
+
+
+
+
+th, td {
+  text-align: left;
+  margin-bottom: 8px;
 }
 
 td {
-  text-align: left;
-  padding: 5px 50px;
+  padding-top: 8px;
   line-height: 20px;
-  color: rgb(196, 196, 196)
+  color: rgb(196, 196, 196);
+  font-size: 14px;
+
+
 }
 
 th {
   font-weight: 500;
   line-height: 22px;
-  margin-top: 50px;
-  align-self: left;
+  text-align: left;
+  padding-bottom: 8px;
 }
 
 
-.icons {
-  margin-top: 10px ;
-  margin-left: 200px;
+.stores {
+  margin-top: 5px;
+  margin-left: 367px;
+
+  
+
 }
 
-.app-store {
-  padding: 5px ;
+.footer-icons{
+  opacity: 0.7;
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+  display: flex;
+  border-radius: 8px;
+  padding: 2px 8px;
   background: #3a3a3a;
-  border-radius: 15px;
+  margin-bottom: 10px;
 }
 
-.play-store {
-  padding: 5px ;
-  background: #3a3a3a;
-  border-radius: 15px;
-  margin-top: 10px;
+.footer-icons:hover {
+  opacity: unset;
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
 }
 
-.play-store {
-  padding: 5px ;
-  background: #3a3a3a;
-  border-radius: 15px;
-  margin-top: 10px;
+.redes {
+  width: 24px;
+  display: flex;  
+  transform: translateY(-7px);
+}
+
+.bottom-icons{
+  opacity: 0.7;
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+  width: 24px;
+  display: flex;
+  margin: 0px 5px;
+
+}
+
+.bottom-icons:hover {
+  opacity: unset;
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
 }
 
 td a {
@@ -459,4 +507,55 @@ span a{
 .primary-btn a {
   color: white;
   text-decoration: none;
+}
+
+.bottom-footer-text, .bottom-footer span{
+  font-size: 12px;
+  color: rgb(196, 196, 196);
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.bottom-footer-text:hover{
+  text-decoration: underline;
+}
+
+.bottom-footer-container {
+  display: flex;
+  justify-content: center;
+  padding: 0px 0px;
+  margin-top: -18px;
+  padding-bottom: 12px;
+}
+
+.bottom-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.language-box {
+  transform: translateY(-7px);
+  margin: 0px 40px
+}
+
+.select-language {
+  width: 150px;
+  height: 32px;
+  border-radius: 30px;
+  background: white;
+  align-content: center;
+  justify-content: center;
+  display: flex;;
+}
+
+.select-language svg{
+  margin-top: 4px;
+}
+
+.select-language select {
+  font-size: 14px;
+  border-radius: 30px;
+  font-weight: 500;
+  border: none;
 }
